@@ -1,0 +1,131 @@
+h1 {
+   font-size: 50px;
+   text-align: center;
+}
+
+.container1 {
+   background-color: #6495ED;
+   margin: 7px;
+   padding: 10px;
+   border: 3px solid black;
+   width: 50%;
+}
+
+h2 {
+   font-size: 25px;
+   color: aliceblue;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: normal;
+}
+
+.form-input {
+   font-family: 'Roboto', sans-serif;
+   font-size: 17px;
+   padding: 3px;
+   width: 50%;
+}
+
+.form-btn {
+   background-color: blueviolet;
+   color: #000;
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+   font-size: 12px;
+   letter-spacing: 1px;
+   margin-left: 8px;
+   padding: 8px 16px;
+
+}
+
+.form-btn:hover {
+   background-color: palevioletred;
+   cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+
+   h1 {
+      font-size: 1.5rem;
+   }
+
+   h2 {
+      font-size: 1.1rem;
+   }
+
+   .form-input {
+      margin-bottom: 8px;
+      width: 100%;
+   }
+
+   .form-btn {
+      margin-bottom: 0;
+      margin-left: 0;
+      width: 100%;
+   }
+}
+
+.world-container {
+   width: 50%;
+   background-color: antiquewhite;
+   font-size: 20px;
+}
+
+.worldclock {
+   border: 1px solid;
+   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+   margin: 10px;
+   text-align: center;
+   transition: transform 0.3s ease;
+   width: 20%;
+}
+
+.worldclock-header {
+   background-color: aliceblue;
+   padding: 4px;
+}
+
+.worldclock h3 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 10px;
+
+}
+
+.worldclock h4 {
+   font-size: 15px;
+   font-weight: normal;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btn-clear {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: orangered;
+   color: #fff;
+   font-size: 15px;
+   font-weight: bold;
+   padding: 5px;
+   text-transform: uppercase;
+}
+
+.btn-clear:hover {
+   background-color: green;
+   cursor: pointer;
+}
+
+@media (max-width: 992px) {
+
+   .worldclock {
+      width: 40%;
+   }
+}
+
+@media (max-width: 768px) {
+
+   .worldclock {
+      width: 100%;
+   }
+}
